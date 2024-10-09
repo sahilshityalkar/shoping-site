@@ -1,0 +1,21 @@
+
+.Product{
+    display: flex;
+    flex-direction: column;
+    
+    height: auto;
+    align-items: center;
+    position :relative;
+    height: auto;
+    width: 100vw;
+
+
+}
+
+
+
+
+.shoesHorizontalVerticle{
+    width: 800px;
+    margin-top: 200px;
+}

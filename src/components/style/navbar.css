@@ -1,0 +1,134 @@
+
+
+nav{
+    display: flex;
+    width: 60vw;
+    height:70px;
+    backdrop-filter: blur(14px) saturate(147%);
+    -webkit-backdrop-filter: blur(14px) saturate(147%);
+    background-color: rgba(255, 255, 255, 0.68);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    position: relative;
+    left: 20%;
+    top: 40px;
+    box-shadow: 0 10px 40px #0000001a;;
+}
+
+
+ .NavLink .logo{
+    
+    position: absolute;
+    left: 30px;
+    font-size:30px ;
+    font-weight: 500;
+    color: var(--dark);
+    top: 10px;
+    
+}
+
+.navItems{
+    width: 40%;
+    display: flex;
+    column-gap: 20px;
+    position: relative;
+    left:110px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.order-sect{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: center;
+    position: relative;
+    left: 90px;
+}
+
+.navItems .NavLink {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--dark);
+  }
+  
+  .navItems .NavLink::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width .5s ease;
+  }
+  
+  .navItems .NavLink:hover::after {
+    width: 100%;
+  }
+  
+  
+  
+
+.order-button{
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: var(--dark);
+    color: var(--light);
+    scale: 1;
+    transition: scale .2 ease-in-out;
+    font-weight: 500;
+    margin-left: 8px;
+    
+}
+
+.order-button:hover{
+    scale: .95;
+    cursor: pointer;
+}
+
+.cart {
+    width: 27px;
+    position: absolute;
+    right: -28px;
+    cursor: pointer;
+}
+
+.itemCount{
+    background-color: var(--dark);
+    width: 14px ;
+    height: 14px ;
+    border-radius: 50%;
+    position: absolute;
+    right:-34px;
+    bottom: 17px;
+    text-align: center;
+    color: var(--light);
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 72px;
+    cursor: pointer;
+}
+
+.profile img{
+    width: 20px;
+}

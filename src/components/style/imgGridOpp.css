@@ -1,0 +1,90 @@
+.ImgGridOpp{
+    width: 100vw;
+    height: 100vh;
+    font-family:'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding-right: 260px;
+    color: var(--light);
+    position: relative;
+    top: 100px;
+}
+
+ .imgGridOppSect{
+   
+    width: 50%;
+    height: 70%;
+    display: flex;
+    position: relative;
+    top: -100px;
+    left: 290px;
+}
+
+.textcontent p{
+    font-size: 19px;
+    margin-top: -65px;
+}
+
+.imgGridOppSect .verticle{
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    
+}
+
+.imgGridOpp-Btn{
+    padding: 12px 36px;
+    background-color: var(--light);
+    margin-top: -100px;
+    margin-right: auto;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 900;
+    scale: 1;
+    transition: .1s scale ease-in;
+    cursor: pointer;
+    position: relative;
+    margin-left: 240px;
+    border: none;
+    scale: 1;
+    transition: .1s scale ease-in;
+}
+
+.imgGridOpp-Btn:hover{
+    scale: .98;
+
+}
+
+.imgGridOppSect .background-of-Img {
+    width: 250px;
+    height: 350px;
+    background-color: #686878;
+    border-radius: 10px;
+    position: absolute;
+    left: -50px;
+    top: 90px;
+}
+
+ .textcontent{
+    height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+    padding-top: 40px;
+    margin-top: -70px
+}
+ .imgGridOppSect .horizontal  {
+    width: 180px;
+    height:110px;
+    z-index:30;
+    border-radius: 10px;
+    position: absolute;
+    left: -120px;
+    bottom: 0px;
+}

@@ -1,0 +1,87 @@
+.ImgGrid{
+    width: 100vw;
+    height: 100vh;
+    font-family:'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding-right: 260px;
+    color: var(--light);
+}
+
+.imgGridSect{
+    height: 100%;
+    display: flex;
+    position: relative;
+    top: 50px;
+
+}
+
+ .textcontent h1{
+    font-size: 32px;
+    
+}
+
+ .textcontent p{
+    font-size: 19px;
+    margin-top: -65px;
+    
+}
+
+.imgGrid-Btn {
+   padding: 12px 36px;
+   background-color: var(--light);
+   margin-top: -100px;
+   margin-right: auto;
+   border-radius: 5px;
+   font-size: 16px;
+   font-weight: 900;
+   scale: 1;
+   transition: .1s scale ease-in;
+   cursor: pointer;
+   border: none;
+
+}
+
+
+.imgGrid-Btn:hover{
+    scale: 0.98;
+}
+
+.imgGridSect .verticle{
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+}
+
+.imgGridSect .background-of-Img {
+    width: 250px;
+    height: 350px;
+    background-color: #000000;
+    border-radius: 10px;
+    position: absolute;
+    left: 50px;
+    top: 90px;
+}
+
+.textcontent{
+    height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+    padding-top: 40px;
+}
+.horizontal  {
+    width: 180px;
+    height:110px;
+    z-index:30;
+    border-radius: 10px;
+    position: absolute;
+    left: 200px;
+    bottom: 160px;
+}

@@ -1,0 +1,16 @@
+.shop{
+    display: flex;
+    
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    position :relative;
+    height: auto;
+    width: 100vw;
+    gap: 20px;
+    padding-top: 200px;
+    align-items: center;
+}
+
+
+
